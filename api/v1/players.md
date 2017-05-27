@@ -1,7 +1,7 @@
 ## Session Resources
 
 ### **玩家使用uuid註冊**
-* **URL:** `/api/v1/session/uuid`
+* **URL:** `/api/v1/players/uuid`
 * **Method:** `POST`
 * **Body:**
 ```
@@ -17,16 +17,13 @@
 }
 ```
 
-### **玩家登入**
-* **URL:** `/api/v1/session`
+### **玩家使用uuid登入**
+* **URL:** `/api/v1/players/uuid/session`
 * **Method:** `POST`
 * **Body:**
 ```
 {
-  // 使用uuid登入
-  "uuid": "xxxx-xxxx-xxxx-xxxx",
-  // 使用facebook登入
-  "facebookId": "xxxxxxxxxxxxxxxxx"
+  "uuid": "xxxx-xxxx-xxxx-xxxx"
 }
 ```
 * **Response** 
