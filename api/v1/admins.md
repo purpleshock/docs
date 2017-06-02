@@ -33,3 +33,7 @@
   "token": "xxxxxxxxxxxxxxxxxxxxxxxx"
 }
 ```
+
+### **檢查管理員token是否可用**
+* **URL:** `/api/v1/admins/token`
+* **Method:** `GET`
